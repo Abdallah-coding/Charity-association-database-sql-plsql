@@ -78,6 +78,22 @@ The system models the full operational workflow of the association, including be
 
 ---
 
+## Database Views & Access Control
+
+The project includes several analytical SQL views providing operational indicators:
+- package distribution statistics per group
+- beneficiary activity tracking
+- stock monitoring with alert thresholds
+- donation budget analysis
+- volunteer activity summaries
+
+Access control is simulated using role-based views:
+- **admin**: full access
+- **chef_groupe**: restricted to their own group
+- **benevole**: read-only access to limited data
+
+---
+
 ## 📊 Example Functional Queries
 - Products below critical stock threshold
 - Most used products by package size
