@@ -1,0 +1,2 @@
+-- 01_tables.sql
+-- Table definitions for charity association database
