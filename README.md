@@ -121,6 +121,16 @@ This project was developed as part of **database and PL/SQL coursework**, with a
 
 ---
 
+## Execution Order
+
+To deploy the database correctly, scripts should be executed in the following order:
+
+1. Schema creation (tables, constraints, foreign keys)
+2. Views (analytic and role-based)
+3. PL/SQL triggers (integrity, business rules, stock & budget management)
+
+---
+
 ## ℹ️ Notes
 - This project focuses on **database-side logic**
 - No frontend or application layer is included
