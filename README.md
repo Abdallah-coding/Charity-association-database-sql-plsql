@@ -3,16 +3,16 @@
 
 ---
 
-## 📌 Overview
+##  Overview
 This academic project consists of the design and implementation of a **relational database for managing a charity association** specialized in preparing and distributing food and hygiene packages to beneficiary families in vulnerable situations.
 
 The system models the full operational workflow of the association, including beneficiaries, volunteers, groups, donations, stock management, package preparation, and distributions, with strong integrity constraints and automated business rules implemented in **Oracle SQL and PL/SQL**.
 
 ---
 
-## 🧱 Key Features
+##  Key Features
 
-### 📐 Data Modeling & Schema
+###  Data Modeling & Schema
 - Complete relational schema derived from an **Entity–Relationship model**
 - Core entities:
   - Beneficiaries
@@ -29,7 +29,7 @@ The system models the full operational workflow of the association, including be
 
 ---
 
-### ⚙️ Business Logic & Integrity
+###  Business Logic & Integrity
 - Automatic package size calculation based on family composition
 - Enforcement of dietary regimes:
   - Vegetarian
@@ -45,7 +45,7 @@ The system models the full operational workflow of the association, including be
 
 ---
 
-### 📦 Stock & Budget Management
+###  Stock & Budget Management
 - Products managed strictly in **units** (not weight or volume)
 - Automatic stock updates via triggers:
   - Donations increase stock or budget
@@ -56,7 +56,7 @@ The system models the full operational workflow of the association, including be
 
 ---
 
-### 🔧 Advanced PL/SQL Usage
+###  Advanced PL/SQL Usage
 - Numerous **row-level and compound triggers** enforcing consistency
 - Triggers handling:
   - Group membership constraints
@@ -68,7 +68,7 @@ The system models the full operational workflow of the association, including be
 
 ---
 
-## 🗂️ Database Structure (High Level)
+##  Database Structure (High Level)
 - `MEMBRES`, `GROUPES`, `MEMBRE_GROUPE`
 - `BENEFICIAIRES`, `REGIME_ALIMENTAIRE`
 - `PRODUITS`, `DONS`, `DON_PRODUIT`
@@ -94,7 +94,7 @@ Access control is simulated using role-based views:
 
 ---
 
-## 📊 Example Functional Queries
+##  Example Functional Queries
 - Products below critical stock threshold
 - Most used products by package size
 - Beneficiaries by dietary regime
@@ -104,7 +104,7 @@ Access control is simulated using role-based views:
 
 ---
 
-## 🎓 Academic Context
+##  Academic Context
 This project was developed as part of **database and PL/SQL coursework**, with a strong focus on:
 - Relational modeling
 - Data integrity
@@ -113,7 +113,7 @@ This project was developed as part of **database and PL/SQL coursework**, with a
 
 ---
 
-## ▶️ How to Use
+## --> How to Use
 1. Create the database schema and tables
 2. Apply constraints and triggers
 3. Load sample data (SQL / SQL\*Loader)
@@ -131,7 +131,7 @@ To deploy the database correctly, scripts should be executed in the following or
 
 ---
 
-## ℹ️ Notes
+## ! Notes
 - This project focuses on **database-side logic**
 - No frontend or application layer is included
 - All business rules are enforced directly at the database level
