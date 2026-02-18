@@ -68,7 +68,7 @@ The system models the full operational workflow of the association, including be
 
 ---
 
-##  Database Structure (High Level)
+##  Database Structure
 - `MEMBRES`, `GROUPES`, `MEMBRE_GROUPE`
 - `BENEFICIAIRES`, `REGIME_ALIMENTAIRE`
 - `PRODUITS`, `DONS`, `DON_PRODUIT`
